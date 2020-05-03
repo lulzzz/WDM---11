@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT7M49.5193306S" SolutionTotalViewTime="PT51M2.4067323S" SolutionTotalDebugTime="PT21.7056219S">
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT7M57.3809263S" SolutionTotalViewTime="PT53M57.7817405S" SolutionTotalDebugTime="PT21.7056219S">
   <FileVersion>
     <Major>1</Major>
     <Minor>0</Minor>
@@ -26,14 +26,55 @@
   </ProjectsCreatedDateList>
   <SessionTimeList />
   <LastSessionTimeList>
-    <DevTrackerDataItem ViewActiveTime="PT14.2129893S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT14.2146406S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\OrleansController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:34:32.2956412+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT53.0115915S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
       <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Program.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
-      <CreatedDate>2020-05-03T17:32:26.1764414+02:00</CreatedDate>
+      <CreatedDate>2020-05-03T17:32:40.9319795+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT11.5544152S" EditActiveTime="PT7.8605984S">
+      <ModifiedDate>2020-05-03T17:40:12.4072569+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:39:53.8858552+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12.0507722S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\WeatherForecast.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:34:20.244869+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M24.5445849S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\WeatherForecastController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:36:27.7335622+02:00</CreatedDate>
       <ViewedBy>msdc1</ViewedBy>
     </DevTrackerDataItem>
   </LastSessionTimeList>
@@ -274,11 +315,11 @@
       <CreatedDate>2020-05-02T12:09:16.6774664+02:00</CreatedDate>
       <ViewedBy>msdc1</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2M26.2386306S" EditActiveTime="PT1M6.0547249S">
+    <DevTrackerDataItem ViewActiveTime="PT2M40.4532712S" EditActiveTime="PT1M6.0547249S">
       <ModifiedDate>2020-05-03T16:54:54.3083518+02:00</ModifiedDate>
       <ModifiedBy>msdc1</ModifiedBy>
       <EditedCount>2</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\OrleansController.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
@@ -340,10 +381,10 @@
       <CreatedDate>2020-05-03T17:05:07.3753531+02:00</CreatedDate>
       <ViewedBy>msdc1</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT27.6335998S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT1M20.6451913S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Program.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
@@ -391,11 +432,11 @@
       <CreatedDate>2020-05-01T18:13:32.4751811+02:00</CreatedDate>
       <ViewedBy>msdc1</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M6.759874S" EditActiveTime="PT32.1073889S">
-      <ModifiedDate>2020-05-03T16:55:08.2756756+02:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT1M18.313293S" EditActiveTime="PT39.9679873S">
+      <ModifiedDate>2020-05-03T17:40:12.4072569+02:00</ModifiedDate>
       <ModifiedBy>msdc1</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Startup.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
@@ -433,20 +474,20 @@
       <CreatedDate>2020-05-01T18:14:07.1337324+02:00</CreatedDate>
       <ViewedBy>msdc1</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4.1201861S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT16.1709583S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\WeatherForecast.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
       <CreatedDate>2020-05-02T12:08:35.4566915+02:00</CreatedDate>
       <ViewedBy>msdc1</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT45.2665962S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT2M9.8111811S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\WeatherForecastController.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
@@ -455,6 +496,57 @@
     </DevTrackerDataItem>
   </TotalTimeList>
   <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT11.553419S" EditActiveTime="PT7.8605984S">
+      <ModifiedDate>2020-05-03T17:40:12.4072569+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:39:53.8858552+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M24.5445849S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\WeatherForecastController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:36:27.7335622+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT14.2146406S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\OrleansController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:34:32.2956412+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12.0507722S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\WeatherForecast.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:34:20.244869+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT53.0115915S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:32:40.9319795+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT14.2099972S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
