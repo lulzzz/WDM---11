@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT7M49.5193306S" SolutionTotalViewTime="PT51M2.4067323S" SolutionTotalDebugTime="PT21.7056219S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>C:\Users\msdc1\source\repos\Nova pasta\WDM---11</SolutionFolder>
+  <SolutionCreattionDate>2020-05-01T17:47:15.714168+02:00</SolutionCreattionDate>
+  <ProjectsCreatedDateList>
+    <ProjectCreated>
+      <ProjectName>C:\Users\msdc1\source\repos\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:51:17.0608959+02:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:01.6058475+02:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:21.4121105+02:00</CreatedDate>
+    </ProjectCreated>
+    <ProjectCreated>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:40.3811472+02:00</CreatedDate>
+    </ProjectCreated>
+  </ProjectsCreatedDateList>
+  <SessionTimeList />
+  <LastSessionTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT14.2129893S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:32:26.1764414+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+  </LastSessionTimeList>
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT5.0222531S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:08:39.9336933+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1.3912151S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\appsettings.json</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:12:09.9143854+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5.1537952S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Cart - Copy.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:00:11.1255706+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.8257903S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Cart.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:04:44.3435115+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M10.8630683S" EditActiveTime="PT17.5106181S">
+      <ModifiedDate>2020-05-03T17:11:48.6142426+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\CartGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:05:54.7546001+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT15.9978792S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:21.6105523+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5.0124736S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Grains\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:40.573634+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT23.6629056S" EditActiveTime="PT0.3939454S">
+      <ModifiedDate>2020-05-03T16:59:57.1046167+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T16:59:45.0379737+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M11.6364368S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Client.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:11:45.1056444+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT21.7056219S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>3</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-01T18:11:49.4902001+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.1156929S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:59:45.0702084+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5.6977706S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\GrainInterfaces.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:06:31.7022936+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0847578S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Grains\Grains.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:59:44.9844382+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.6255469S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\Grains.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:21:35.9464116+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M47.8766729S" EditActiveTime="PT0.6120794S">
+      <ModifiedDate>2020-05-01T17:58:30.716127+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>3</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Grains\HelloGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:58:28.3222061+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M55.229314S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\HelloGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:05:05.6200351+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT45.4917614S" EditActiveTime="PT1M20.5281799S">
+      <ModifiedDate>2020-05-03T17:00:58.8482355+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\ICartGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T16:57:59.5194571+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT42.4610714S" EditActiveTime="PT3.9321269S">
+      <ModifiedDate>2020-05-03T17:11:30.9821522+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\ICartGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:05:16.0901708+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M52.886917S" EditActiveTime="PT2.7619804S">
+      <ModifiedDate>2020-05-01T17:55:01.9001816+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\IHello.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:54:54.1134188+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3.5916047S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\IHello.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:10:41.5253072+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0718087S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:11:45.0338357+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT23.4830991S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-03T17:08:18.261751+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT55.7391476S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Program Files\dotnet\sdk\3.1.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-02T12:09:16.6774664+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M26.2386306S" EditActiveTime="PT1M6.0547249S">
+      <ModifiedDate>2020-05-03T16:54:54.3083518+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\OrleansController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:11:14.3594517+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT45.484518S" EditActiveTime="PT0.8618277S">
+      <ModifiedDate>2020-05-03T17:00:18.8500478+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Product.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:00:16.2793658+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M40.8262873S" EditActiveTime="PT0.4079085S">
+      <ModifiedDate>2020-05-01T17:58:54.1167856+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Silo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:51:17.7041465+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT7M9.8285063S" EditActiveTime="PT1M2.6428692S">
+      <ModifiedDate>2020-05-01T18:14:52.1527349+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>4</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:01.8093018+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M25.1302701S" EditActiveTime="PT14.0527616S">
+      <ModifiedDate>2020-05-01T18:09:50.5639735+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:07:42.1514699+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M29.5578837S" EditActiveTime="PT7.6386105S">
+      <ModifiedDate>2020-05-03T17:05:43.1165997+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Silo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:05:07.3753531+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT27.6335998S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:31:37.6492915+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0917543S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Silo\Silo.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:59:45.1868987+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0388834S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Silo\Silo.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:10:51.665549+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT21.1736783S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:07:45.0247267+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9M48.0045155S" EditActiveTime="PT1M24.6816279S">
+      <ModifiedDate>2020-05-02T12:09:55.8532247+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>3</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:13:32.4751811+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M6.759874S" EditActiveTime="PT32.1073889S">
+      <ModifiedDate>2020-05-03T16:55:08.2756756+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:08:44.9163411+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT7.7895838S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\User.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:04:57.829454+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT35.1127824S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Controllers\ValuesController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:07:52.1574058+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4M56.4291976S" EditActiveTime="PT1M35.3326813S">
+      <ModifiedDate>2020-05-01T18:17:50.4450504+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>3</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Controllers\ValuesController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:14:07.1337324+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.1201861S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\WeatherForecast.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:08:35.4566915+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT45.2665962S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\WeatherForecastController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:08:38.0583711+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT14.2099972S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:32:26.1764414+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT13.4255977S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:31:37.6492915+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1.8131519S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-03T17:28:26.3859026+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.6265441S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\Grains.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:21:35.9464116+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0388834S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Silo\Silo.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:10:51.665549+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3.5916047S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\IHello.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:10:41.5253072+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5.0222531S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:08:39.9336933+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT21.6709449S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-03T17:08:18.261751+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5.6977706S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\GrainInterfaces.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:06:31.7022936+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M10.8630683S" EditActiveTime="PT17.5106181S">
+      <ModifiedDate>2020-05-03T17:11:48.6142426+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\CartGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:05:54.7546001+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT42.4610714S" EditActiveTime="PT3.9321269S">
+      <ModifiedDate>2020-05-03T17:11:30.9821522+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\ICartGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:05:16.0901708+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M29.5578837S" EditActiveTime="PT7.6386105S">
+      <ModifiedDate>2020-05-03T17:05:43.1165997+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Silo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:05:07.3753531+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M55.229314S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\HelloGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:05:05.6200351+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT7.7895838S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\User.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:04:57.829454+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12.657158S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Product.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:04:44.5499596+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.8257903S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Cart.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:04:44.3435115+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT50.8518441S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Program Files\dotnet\sdk\3.1.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-03T17:03:53.49067+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT32.82736S" EditActiveTime="PT0.8618277S">
+      <ModifiedDate>2020-05-03T17:00:18.8500478+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Product.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:00:16.2793658+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5.1537952S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Cart - Copy.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T17:00:11.1255706+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT23.6629056S" EditActiveTime="PT0.3939454S">
+      <ModifiedDate>2020-05-03T16:59:57.1046167+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\DataModels\DataModels.csproj</ProjectName>
+      <CreatedDate>2020-05-03T16:59:45.0379737+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT45.4917614S" EditActiveTime="PT1M20.5281799S">
+      <ModifiedDate>2020-05-03T17:00:58.8482355+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\ICartGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T16:57:59.5194571+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT41.1754381S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Grains\HelloGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-03T16:55:53.1931065+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT17.0837276S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\IHello.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-03T16:55:42.6959539+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9.3873001S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-03T16:55:13.4560245+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT32.5242836S" EditActiveTime="PT32.1073889S">
+      <ModifiedDate>2020-05-03T16:55:08.2756756+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T16:51:53.1521943+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M6.0465667S" EditActiveTime="PT17.9481252S">
+      <ModifiedDate>2020-05-03T16:54:54.3083518+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\OrleansController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-03T16:51:52.2287441+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3.3061742S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-02T12:13:46.6794206+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M20.1920639S" EditActiveTime="PT48.1065997S">
+      <ModifiedDate>2020-05-02T12:13:05.4205553+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\OrleansController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:11:14.3594517+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1.7565378S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:10:01.6855993+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT24.190282S" EditActiveTime="PT17.3826786S">
+      <ModifiedDate>2020-05-02T12:09:55.8532247+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:09:21.5657673+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.8873035S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Program Files\dotnet\sdk\3.1.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-02T12:09:16.6774664+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT34.2355904S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:08:44.9163411+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT45.2665962S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\Controllers\WeatherForecastController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:08:38.0583711+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.1201861S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\WeatherForecast.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\API\API.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:08:35.4566915+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M46.0520011S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Controllers\ValuesController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-02T12:05:45.526505+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9.8359325S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Controllers\ValuesController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:37:36.3290156+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1.5678064S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:35:44.0585317+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT7M31.6542803S" EditActiveTime="PT2.2152692S">
+      <ModifiedDate>2020-05-01T18:36:56.6580898+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:26:43.0001337+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M10.9692143S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Client.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:24:59.0222538+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M0.5422611S" EditActiveTime="PT1M35.3326813S">
+      <ModifiedDate>2020-05-01T18:17:50.4450504+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Controllers\ValuesController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:14:07.1337324+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M52.1599532S" EditActiveTime="PT1M5.0836801S">
+      <ModifiedDate>2020-05-01T18:22:22.5976357+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:13:32.4751811+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1.3912151S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\appsettings.json</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:12:09.9143854+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9.0121476S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-05-01T18:11:49.4902001+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.6682194S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Client.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:11:45.1056444+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0718087S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:11:45.0338357+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT35.1127824S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Controllers\ValuesController.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:07:52.1574058+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT21.1736783S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Startup.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:07:45.0247267+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M25.1302701S" EditActiveTime="PT14.0527616S">
+      <ModifiedDate>2020-05-01T18:09:50.5639735+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Nova pasta\WDM---11\Microservices\Microservices.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:07:42.1514699+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M59.0032162S" EditActiveTime="PT1M2.3107558S">
+      <ModifiedDate>2020-05-01T18:14:52.1527349+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:05:16.3686708+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT53.5085216S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Grains\HelloGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:03:50.8956255+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.2273916S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Silo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-01T18:03:50.6662397+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0917543S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Silo\Silo.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:59:45.1868987+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.1156929S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:59:45.0702084+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0847578S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Grains\Grains.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:59:44.9844382+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT13.1927132S" EditActiveTime="PT0.6120794S">
+      <ModifiedDate>2020-05-01T17:58:30.716127+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Grains\HelloGrain.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:58:28.3222061+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M35.8031894S" EditActiveTime="PT2.7619804S">
+      <ModifiedDate>2020-05-01T17:55:01.9001816+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\IHello.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:54:54.1134188+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5.0124736S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Grains\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Grains\Grains.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:40.573634+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT15.9978792S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\GrainInterfaces\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\GrainInterfaces\GrainInterfaces.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:21.6105523+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M7.5009459S" EditActiveTime="PT0.3321134S">
+      <ModifiedDate>2020-05-01T17:59:05.1393404+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Client\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Client\Client.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:52:01.8093018+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M40.5988957S" EditActiveTime="PT0.4079085S">
+      <ModifiedDate>2020-05-01T17:58:54.1167856+02:00</ModifiedDate>
+      <ModifiedBy>msdc1</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\msdc1\source\repos\Silo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\msdc1\source\repos\Silo\Silo.csproj</ProjectName>
+      <CreatedDate>2020-05-01T17:51:17.7041465+02:00</CreatedDate>
+      <ViewedBy>msdc1</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>
