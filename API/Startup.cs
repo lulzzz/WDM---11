@@ -64,7 +64,7 @@ namespace API
                 //.ConfigureLogging(logging => logging.AddConsole())
                 .Build();
 
-            client.Connect().Wait();
+            client.Connect().Wait(); //Catch exception if it does not connects
             Console.WriteLine("Client successfully connected to silo host \n");
             return client;
         }
