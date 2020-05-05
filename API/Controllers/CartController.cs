@@ -10,7 +10,7 @@ using OrleansBasics;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class CartController : ControllerBase
     {
@@ -27,7 +27,7 @@ namespace API.Controllers
         }
 
         // GET: api/Cart/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}")]
         public Task<Cart> Get(Guid guid)
         {   //Can it receive directly a GUID?
             var cart = _client.GetGrain<ICartGrain>(guid); //Get specific cart. How to handle auth ?

@@ -8,9 +8,11 @@ using Orleans;
 using Orleans.Configuration;
 using OrleansBasics;
 
+
+//To be removed.
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class OrleansController : ControllerBase
     {

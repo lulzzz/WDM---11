@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
+//API example. To be removed.
 namespace API.Controllers
 {
     [ApiController]
