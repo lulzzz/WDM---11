@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\TU\\WDM\\WDM---11\\Sample\\src\\SiloHost\\SiloHost.csproj": {}
+  },
+  "projects": {
+    "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Grains\\HelloWorld.Grains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Grains\\HelloWorld.Grains.csproj",
+        "projectName": "HelloWorld.Grains",
+        "projectPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Grains\\HelloWorld.Grains.csproj",
+        "packagesPath": "C:\\Users\\bzi\\.nuget\\packages\\",
+        "outputPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Grains\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.qdelft.nl:443/nuget": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Interfaces\\HelloWorld.Interfaces.csproj": {
+                "projectPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Interfaces\\HelloWorld.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Orleans.Runtime.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Interfaces\\HelloWorld.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Interfaces\\HelloWorld.Interfaces.csproj",
+        "projectName": "HelloWorld.Interfaces",
+        "projectPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Interfaces\\HelloWorld.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\bzi\\.nuget\\packages\\",
+        "outputPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.qdelft.nl:443/nuget": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\TU\\WDM\\WDM---11\\Sample\\src\\SiloHost\\SiloHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\SiloHost\\SiloHost.csproj",
+        "projectName": "SiloHost",
+        "projectPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\SiloHost\\SiloHost.csproj",
+        "packagesPath": "C:\\Users\\bzi\\.nuget\\packages\\",
+        "outputPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\SiloHost\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.qdelft.nl:443/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Grains\\HelloWorld.Grains.csproj": {
+                "projectPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Grains\\HelloWorld.Grains.csproj"
+              },
+              "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Interfaces\\HelloWorld.Interfaces.csproj": {
+                "projectPath": "E:\\TU\\WDM\\WDM---11\\Sample\\src\\HelloWorld.Interfaces\\HelloWorld.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Orleans.OrleansProviders": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Orleans.OrleansRuntime": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Orleans.Persistence.AzureStorage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

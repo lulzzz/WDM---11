@@ -1,0 +1,15 @@
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\SiloHost.dll.config
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\SiloHost.deps.json
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\SiloHost.runtimeconfig.json
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\SiloHost.runtimeconfig.dev.json
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\SiloHost.dll
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\SiloHost.pdb
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\HelloWorld.Grains.dll
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\HelloWorld.Interfaces.dll
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\HelloWorld.Grains.pdb
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\bin\Debug\netcoreapp2.1\HelloWorld.Interfaces.pdb
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\obj\Debug\netcoreapp2.1\SiloHost.csprojAssemblyReference.cache
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\obj\Debug\netcoreapp2.1\SiloHost.dll.config
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\obj\Debug\netcoreapp2.1\SiloHost.csproj.CopyComplete
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\obj\Debug\netcoreapp2.1\SiloHost.dll
+E:\TU\WDM\WDM---11\Sample\src\SiloHost\obj\Debug\netcoreapp2.1\SiloHost.pdb

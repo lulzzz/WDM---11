@@ -1,0 +1,13 @@
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\bin\Debug\netcoreapp2.1\OrleansClient.dll.config
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\bin\Debug\netcoreapp2.1\OrleansClient.deps.json
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\bin\Debug\netcoreapp2.1\OrleansClient.runtimeconfig.json
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\bin\Debug\netcoreapp2.1\OrleansClient.runtimeconfig.dev.json
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\bin\Debug\netcoreapp2.1\OrleansClient.dll
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\bin\Debug\netcoreapp2.1\OrleansClient.pdb
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\bin\Debug\netcoreapp2.1\HelloWorld.Interfaces.dll
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\bin\Debug\netcoreapp2.1\HelloWorld.Interfaces.pdb
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\obj\Debug\netcoreapp2.1\OrleansClient.csprojAssemblyReference.cache
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\obj\Debug\netcoreapp2.1\OrleansClient.dll.config
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\obj\Debug\netcoreapp2.1\OrleansClient.csproj.CopyComplete
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\obj\Debug\netcoreapp2.1\OrleansClient.dll
+E:\TU\WDM\WDM---11\Sample\src\OrleansClient\obj\Debug\netcoreapp2.1\OrleansClient.pdb

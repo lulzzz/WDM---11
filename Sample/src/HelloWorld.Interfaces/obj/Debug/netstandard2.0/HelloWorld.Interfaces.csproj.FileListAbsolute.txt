@@ -1,0 +1,10 @@
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\bin\Debug\netstandard2.0\HelloWorld.Interfaces.deps.json
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\bin\Debug\netstandard2.0\HelloWorld.Interfaces.dll
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\bin\Debug\netstandard2.0\HelloWorld.Interfaces.pdb
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\obj\Debug\netstandard2.0\HelloWorld.Interfaces.csprojAssemblyReference.cache
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\obj\Debug\netstandard2.0\HelloWorld.Interfaces.csproj.OrleansCodeGenInputs.cache
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\obj\Debug\netstandard2.0\HelloWorld.Interfaces.orleans.g.cs
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\obj\Debug\netstandard2.0\HelloWorld.Interfaces.AssemblyInfoInputs.cache
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\obj\Debug\netstandard2.0\HelloWorld.Interfaces.AssemblyInfo.cs
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\obj\Debug\netstandard2.0\HelloWorld.Interfaces.dll
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Interfaces\obj\Debug\netstandard2.0\HelloWorld.Interfaces.pdb

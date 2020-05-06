@@ -1,0 +1,13 @@
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\bin\Debug\netstandard2.0\HelloWorld.Grains.deps.json
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\bin\Debug\netstandard2.0\HelloWorld.Grains.dll
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\bin\Debug\netstandard2.0\HelloWorld.Grains.pdb
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\bin\Debug\netstandard2.0\HelloWorld.Interfaces.dll
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\bin\Debug\netstandard2.0\HelloWorld.Interfaces.pdb
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\obj\Debug\netstandard2.0\HelloWorld.Grains.csprojAssemblyReference.cache
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\obj\Debug\netstandard2.0\HelloWorld.Grains.csproj.OrleansCodeGenInputs.cache
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\obj\Debug\netstandard2.0\HelloWorld.Grains.orleans.g.cs
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\obj\Debug\netstandard2.0\HelloWorld.Grains.AssemblyInfoInputs.cache
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\obj\Debug\netstandard2.0\HelloWorld.Grains.AssemblyInfo.cs
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\obj\Debug\netstandard2.0\HelloWorld.Grains.csproj.CopyComplete
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\obj\Debug\netstandard2.0\HelloWorld.Grains.dll
+E:\TU\WDM\WDM---11\Sample\src\HelloWorld.Grains\obj\Debug\netstandard2.0\HelloWorld.Grains.pdb
