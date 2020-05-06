@@ -54,7 +54,7 @@ namespace API.Controllers
 
             stock.ChangeAmount(number);
         }
-        [HttpPost("item/create"]
+        [HttpPost("item/create")]
         public string AddItem()
         {
             //Create stock -> item + availability = 1 or 0 ?
