@@ -61,7 +61,7 @@ namespace API
                     options.ClusterId = "dev";
                     options.ServiceId = "OrleansBasics";
                 })
-                //.ConfigureLogging(logging => logging.AddConsole())
+                .ConfigureLogging(logging => logging.AddConsole())
                 .Build();
 
             client.Connect().Wait(); //Catch exception if it does not connects
