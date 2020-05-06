@@ -46,6 +46,8 @@ namespace OrleansBasics
                 .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(UserGrain).Assembly).WithReferences())
                 .ConfigureLogging(logging => logging.AddConsole());
 
+            //Unsure about silo code, what is it really used for ?
+            //Is addapplicationpart really doing anything?
             var host = builder.Build();
             await host.StartAsync();
             return host;
