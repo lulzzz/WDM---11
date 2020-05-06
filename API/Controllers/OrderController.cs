@@ -25,7 +25,9 @@ namespace API.Controllers
         {
 
             var user = _client.GetGrain<IUserGrain>(id);
-            return user.NewOrder() +""; //Not the most elegant way to convert
+
+            //Cannot directly return GUID.
+            return user.NewOrder().Result + ""; //Not the most elegant way to convert
         }
 
         [HttpDelete("remove/{id}")]
