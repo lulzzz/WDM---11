@@ -1,0 +1,10 @@
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\bin\Debug\netcoreapp3.1\Presence.Grains.Interfaces.deps.json
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\bin\Debug\netcoreapp3.1\Presence.Grains.Interfaces.dll
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\bin\Debug\netcoreapp3.1\Presence.Grains.Interfaces.pdb
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\obj\Debug\netcoreapp3.1\Grains.Interfaces.csprojAssemblyReference.cache
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\obj\Debug\netcoreapp3.1\Grains.Interfaces.csproj.OrleansCodeGenInputs.cache
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\obj\Debug\netcoreapp3.1\Presence.Grains.Interfaces.orleans.g.cs
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\obj\Debug\netcoreapp3.1\Grains.Interfaces.AssemblyInfoInputs.cache
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\obj\Debug\netcoreapp3.1\Grains.Interfaces.AssemblyInfo.cs
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\obj\Debug\netcoreapp3.1\Presence.Grains.Interfaces.dll
+E:\TU\WDM\WDM---11\Presence\src\Grains.Interfaces\obj\Debug\netcoreapp3.1\Presence.Grains.Interfaces.pdb
