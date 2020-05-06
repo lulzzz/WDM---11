@@ -21,5 +21,26 @@ namespace API.Controllers
         {
             _client = client;
         }
+
+        [HttpPost("pay/{user_id}/{order_id}")]
+        public Task<bool> Pay(Guid user_id, Guid order_id)
+        {
+            //POST - subtracts the amount of the order from the user’s credit(returns failure if credit is not enough)
+            //Payment grain  needed?
+            return Task.FromResult(true);
+        }
+        [HttpPost("cancel/{user_id}/{order_id}")]
+        public void CancelPayment(Guid user_id, Guid order_id)
+        {
+            //POST - cancels payment made by a specific user for a specific order.
+            //How to "cancel" the payment? Change its status? Remove it?
+            //Grain needed?
+        }
+        [HttpGet("status/{order_id}")]
+        public Task<string> GetStatus(Guid order_id)
+        {
+            //GET - returns the status of the payment (paid or not)
+            return Task.FromResult("paid");
+        }
     }
 }

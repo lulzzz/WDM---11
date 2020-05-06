@@ -80,10 +80,6 @@ namespace API.Controllers
             var user = _client.GetGrain<IUserGrain>(id);
             return user.ChangeCredit(amount);
         }
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+       
     }
 }

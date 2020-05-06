@@ -12,13 +12,14 @@ namespace OrleansBasics
 
         public Task<bool> ChangeCredit(decimal amount)
         {
+            bool result = false;
             if(user.Credit + amount > 0)
             {
 
                 user.Credit += amount;
-                return Task.Factory.StartNew(() => true);
+                result = true;
             }
-            return Task.Factory.StartNew(() => false);
+            return Task.FromResult(result);
         }
 
         public Task<decimal> GetCredit()
@@ -28,7 +29,14 @@ namespace OrleansBasics
 
         public Task<User> GetUser()
         {
-            return Task.Factory.StartNew(() => user);
+            return Task.FromResult(user);
+        }
+
+        public Task<Guid> NewOrder()
+        {
+            //Add order to user
+            var guid = Guid.NewGuid();
+            return Task.FromResult(guid);
         }
     }
 }

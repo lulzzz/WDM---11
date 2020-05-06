@@ -6,7 +6,6 @@ namespace DataModels
 {
     public class Stock
     {
-        public Product Item { get; set; }
-        public int Quantity { get; set; }
+        public int Amount { get; set; } = 0;
     }
 }

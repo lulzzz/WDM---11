@@ -14,5 +14,7 @@ namespace OrleansBasics
         Task<decimal> GetCredit();
 
         Task<bool> ChangeCredit(decimal amount);
+
+        Task<Guid> NewOrder();
     }
 }
