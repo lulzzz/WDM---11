@@ -1,4 +1,5 @@
 ﻿using DataModels;
+using Orleans;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,6 +10,7 @@ namespace OrleansBasics
     public class UserGrain : Orleans.Grain, IUserGrain
     {
         User user = new User();
+        State State = new State();//Used to check if the grain was already created.
 
         public Task<bool> ChangeCredit(decimal amount)
         {
@@ -22,16 +24,33 @@ namespace OrleansBasics
             return Task.FromResult(result);
         }
 
+        public Task<Guid> CreateUser()
+        {
+            State.Created = true;
+
+            return Task.FromResult(this.GetPrimaryKey());
+
+        }
+
         public Task<decimal> GetCredit()
         {
             return Task.Factory.StartNew(() => user.Credit);
         }
 
+        //Use this to check if user was created before, therefore if it exists in the other methods.
         public Task<User> GetUser()
         {
-            return Task.FromResult(user);
+            if (State.Created)
+            {
+                return Task.FromResult(user);
+            }
+            else
+            {
+                return Task.FromResult<User>(null); //Throw exception?;
+            }
         }
 
+        //Should receive the order
         public Task<Guid> NewOrder()
         {
             //Add order to user

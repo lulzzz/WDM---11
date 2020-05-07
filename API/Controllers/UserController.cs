@@ -40,19 +40,25 @@ namespace API.Controllers
         [HttpGet("find/{id}", Name = "Get")]
         public Task<User> Get(Guid id)
         {
+            //What if it doesnt exist?
+            //When the grain is invoked should it check the db or something if the id exists? 
+            //(e.g) use OnActivateAsync(?) to check if user exists ? Need a storage provider for that.
             var user = _client.GetGrain<IUserGrain>(id);
-            return user.GetUser();
+
+            var result = user.GetUser();
+            //Send ok or not found?
+            return result;
         }
 
         // POST: User/create
         [HttpPost("create")]
-        public string Post()
+        public Task<Guid> Post()
         {
-            var newguid = Guid.NewGuid();
-            //Do something..
+            var id = Guid.NewGuid();
+         
+            var user = _client.GetGrain<IUserGrain>(id);
 
-            //Convert to string needed..
-            return newguid + "";
+            return user.CreateUser();
         }
 
         [HttpGet("credit/{id}")]

@@ -9,6 +9,7 @@ namespace OrleansBasics
 {
     public interface IUserGrain : IGrainWithGuidKey
     {
+        Task<Guid> CreateUser();
         Task<User> GetUser();
 
         Task<decimal> GetCredit();
