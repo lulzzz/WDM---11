@@ -7,7 +7,7 @@ namespace DataModels
     public class Order
     {
         public List<Product> Items{get;set;}
-        public User User { get; set; }
+        public User User { get; set; } //??
         //Payment Status
     }
 }
