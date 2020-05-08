@@ -9,6 +9,7 @@ namespace OrleansBasics
 {
     public class UserGrain : Orleans.Grain, IUserGrain
     {
+        //This object should be changed to persistentstate/transactionalstate to allow persistence or transactions. 
         User user = new User();
         State State = new State();//Used to check if the grain was already created.
 
