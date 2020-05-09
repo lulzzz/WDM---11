@@ -21,7 +21,7 @@ namespace OrleansBasics
 
         public Task<Order> GetOrder()
         {
-            return Task.Factory.StartNew(() => order);
+            return Task.FromResult(order);
         }
     }
 }

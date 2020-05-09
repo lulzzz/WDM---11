@@ -35,7 +35,7 @@ namespace OrleansBasics
 
         public Task<decimal> GetCredit()
         {
-            return Task.Factory.StartNew(() => user.Credit);
+            return Task.FromResult(user.Credit);
         }
 
         //Use this to check if user was created before, therefore if it exists in the other methods.
