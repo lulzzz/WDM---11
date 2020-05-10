@@ -9,6 +9,10 @@ namespace OrleansBasics
 {
     public interface IOrderGrain : IGrainWithGuidKey
     {
+        Task<Guid> CreateOrder(Guid userId);
+
+        Task<bool> RemoveOrder();
+
         Task<Order> GetOrder();
 
         //TODO
