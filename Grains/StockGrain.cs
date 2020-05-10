@@ -22,6 +22,7 @@ namespace OrleansBasics
 
         public Task<int> GetAmount()
         {
+
             return Task.FromResult(stock.Amount);
         }
     }

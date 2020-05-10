@@ -14,36 +14,34 @@ namespace API.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
-        private readonly IClusterClient _client;
 
+        private readonly IClusterClient _client;
         public OrderController(IClusterClient client)
         {
             _client = client;
         }
-
         [HttpPost("create/{id}")]
-        public Task<Guid> CreateOrder(Guid id)
+        public string CreateOrder(Guid id)
         {
-            var orderId = Guid.NewGuid();
-            var order = _client.GetGrain<IOrderGrain>(orderId);
-            return order.CreateOrder(id);
+
+            var user = _client.GetGrain<IUserGrain>(id);
+
+            //Cannot directly return GUID.
+            return user.NewOrder().Result + ""; //Not the most elegant way to convert
         }
 
         [HttpDelete("remove/{id}")]
-        public Task<bool> RemoveOrder(Guid id)
+        public void DeletesOrder(Guid id)
         {
-            //Delete order -> Remove order from user // For now user doesn't have orders
-            var order = _client.GetGrain<IOrderGrain>(id);
-            return order.RemoveOrder();
+            
+            //Delete order -> Remove order from user
+       
         }
-
         [HttpGet("find/{id}")]
         public Task<Order> GetOrderDetails(Guid id)
         {
-            var order = _client.GetGrain<IOrderGrain>(id);
-            return order.GetOrder();
+            return _client.GetGrain<IOrderGrain>(id).GetOrder();
         }
-
         [HttpPost("additem/{order_id}/{item_id}")]
         public void AddItem(Guid orderId, Guid itemId)
         {

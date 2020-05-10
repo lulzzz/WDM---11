@@ -1,6 +1,8 @@
 ﻿using DataModels;
 using Orleans;
 using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace OrleansBasics
@@ -8,15 +10,12 @@ namespace OrleansBasics
     public interface IUserGrain : IGrainWithGuidKey
     {
         Task<Guid> CreateUser();
-
-        Task<bool> RemoveUser();
-
         Task<User> GetUser();
 
         Task<decimal> GetCredit();
 
         Task<bool> ChangeCredit(decimal amount);
 
-        Task<Guid> NewOrder(); // TODO: Necessary?
+        Task<Guid> NewOrder();
     }
 }
