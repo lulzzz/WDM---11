@@ -7,6 +7,7 @@ namespace OrleansBasics
 {
     public class UserGrain : Orleans.Grain, IUserGrain
     {
+        //This object should be changed to persistentstate/transactionalstate to allow persistence or transactions. 
         User user = new User();
 
         public Task<Guid> CreateUser()
@@ -25,7 +26,9 @@ namespace OrleansBasics
                 result = true;
             }
 
-            return Task.FromResult(result);
+        public Task<decimal> GetCredit()
+        {
+            return Task.Factory.StartNew(() => user.Credit);
         }
 
         //Use this to check if user was created before, therefore if it exists in the other methods.
