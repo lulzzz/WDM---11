@@ -9,7 +9,6 @@ namespace OrleansBasics
     {
         Order order = new Order();
 
-        // STATE?
 
         public Task<Guid> CreateOrder(Guid userId) //userId or IUserGrain?
         {
@@ -41,14 +40,25 @@ namespace OrleansBasics
             }
         }
 
-        public Task AddItem()
+        public void AddItem(Stock item)
         {
-            throw new NotImplementedException();
+            order.Items.Add(item);
+
         }
 
-        public Task RemoveItem()
+        public void RemoveItem(Stock item)
         {
-            throw new NotImplementedException();
+            order.Items.Remove(item);
+        }
+
+        public Task<decimal> GetTotalCost()
+        {
+            if (!order.Exists)
+            {
+                return null;
+            }
+
+            return Task.FromResult(order.Total);
         }
     }
 }

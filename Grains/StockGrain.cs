@@ -24,5 +24,10 @@ namespace OrleansBasics
         {
             return Task.FromResult(stock.Amount);
         }
+
+        public void Create(string description)
+        {
+            stock.Description = description;
+        }
     }
 }

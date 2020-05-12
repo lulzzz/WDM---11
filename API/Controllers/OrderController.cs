@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Orleans;
 using OrleansBasics;
 using DataModels;
+using System.Xml.Schema;
 
 namespace API.Controllers
 {
@@ -22,26 +23,26 @@ namespace API.Controllers
         }
 
         [HttpPost("create/{id}")]
-        public Task<Guid> CreateOrder(Guid id)
+        public async Task<Guid> CreateOrder(Guid id)
         {
             var orderId = Guid.NewGuid();
             var order = _client.GetGrain<IOrderGrain>(orderId);
-            return order.CreateOrder(id);
+            return await order.CreateOrder(id);
         }
 
         [HttpDelete("remove/{id}")]
-        public Task<bool> RemoveOrder(Guid id)
+        public async Task<bool> RemoveOrder(Guid id)
         {
             //Delete order -> Remove order from user // For now user doesn't have orders
             var order = _client.GetGrain<IOrderGrain>(id);
-            return order.RemoveOrder();
+            return await order.RemoveOrder();
         }
 
         [HttpGet("find/{id}")]
-        public Task<Order> GetOrderDetails(Guid id)
+        public async Task<Order> GetOrderDetails(Guid id)
         {
             var order = _client.GetGrain<IOrderGrain>(id);
-            return order.GetOrder();
+            return await order.GetOrder();
         }
 
         [HttpPost("additem/{order_id}/{item_id}")]
@@ -49,7 +50,7 @@ namespace API.Controllers
         {
             var order = _client.GetGrain<IOrderGrain>(orderId);
             //Should receive the item_id ? The item itself or the grain?
-            order.AddItem();
+            order.AddItem(null);
 
         }
         [HttpDelete("removeitem/{order_id}/{item_id}")]
@@ -57,14 +58,16 @@ namespace API.Controllers
         {
             var order = _client.GetGrain<IOrderGrain>(order_id);
             //Should receive the item_id ? The item itself or the grain?
-            order.RemoveItem();
+            order.RemoveItem(null);
 
         }
         [HttpPost("checkout/{id}")]
-        public Task<bool> Checkout(Guid id)
+        public async Task<bool> Checkout(Guid id)
         {
+            var order = _client.GetGrain<IOrderGrain>(id);
+            decimal total = await order.GetTotalCost();
             //Call payment service, should it call the service itself or a grain ? Should payments be grains?
-            return Task.FromResult(true);
+            return true;  //TODO
         }
 
     }

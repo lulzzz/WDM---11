@@ -16,9 +16,10 @@ namespace OrleansBasics
         Task<Order> GetOrder();
 
         //TODO
-        Task AddItem();
+        void AddItem(Stock item);
         //TODO
-        Task RemoveItem();
+        void RemoveItem(Stock item);
 
+        Task<decimal> GetTotalCost();
     }
 }
