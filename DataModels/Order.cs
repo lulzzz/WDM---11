@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,11 +12,12 @@ namespace DataModels
         public Guid userId { get; set; } //FK of user
 
         public List<Stock> Items { get; } = new List<Stock>();
-     
-        public DateTime CreatedAt { get; set; }
-        public DateTime CompletedAt { get; set; }
+
+        public DateTime? CreatedAt { get; set; } = null;
+        public DateTime? CompletedAt { get; set; } = null;
 
         //Non serializable
+        [JsonIgnore]
         public bool Exists => CreatedAt != null;
         //Non serializable
         public bool Completed => CompletedAt != null;

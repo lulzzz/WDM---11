@@ -33,11 +33,13 @@ namespace API.Controllers
         }
 
         [HttpPost("create")]
+        [Produces("application/json")]
         public Task<Guid> CreateUser()
         {
             var id = Guid.NewGuid();
             var user = _client.GetGrain<IUserGrain>(id);
-            return user.CreateUser();
+
+            return user.CreateUser(); //Should it be user_id : {user_id} ?
         }
 
         [HttpDelete("remove/{id}")]
@@ -48,6 +50,7 @@ namespace API.Controllers
         }
 
         [HttpGet("find/{id}")]
+        [Produces("application/json")]
         public Task<User> GetUser(Guid id)
         {
             //What if it doesnt exist?
