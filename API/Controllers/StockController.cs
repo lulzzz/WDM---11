@@ -21,7 +21,7 @@ namespace API.Controllers
             _client = client;
         }
         [HttpGet("availability/{id}")]
-        public Task<int> GetAvailability(Guid id)
+        public async Task<int> GetAvailability(Guid id)
         {
 
             //Get item grain and ask for its availability ?
@@ -31,7 +31,7 @@ namespace API.Controllers
 
             var stock = _client.GetGrain<IStockGrain>(id);
 
-            return stock.GetAmount();
+            return await stock.GetAmount();
         }
 
         [HttpPost("substract/{id}/{number}")]
@@ -55,11 +55,11 @@ namespace API.Controllers
             stock.ChangeAmount(number);
         }
         [HttpPost("item/create")]
-        public string AddItem([FromBody] string body)
+        public Task<string> AddItem([FromBody] Stock body)
         {
-            //Create stock -> item + availability = 1 or 0 ?
-
-            return Guid.NewGuid() + ""; //Again, not the most elegant way to convert the object.
+            var item = _client.GetGrain<IStockGrain>(Guid.NewGuid());
+            item.Create(body.Description);
+            return Task.FromResult(item.GetPrimaryKey() + ""); //Again, not the most elegant way to convert the object.
 
         }
       

@@ -26,33 +26,38 @@ namespace OrleansBasics
                 result = true;
             }
 
+            return Task.FromResult(result);
+        }
+
         public Task<decimal> GetCredit()
         {
-            return Task.Factory.StartNew(() => user.Credit);
+            if (!user.Exists)
+            {
+                return null; //NOT FOUND(404)
+            }
+            return Task.FromResult(user.Credit);
         }
 
         //Use this to check if user was created before, therefore if it exists in the other methods.
         public Task<User> GetUser()
         {
-            if (user.Exists)
+            if (!user.Exists)
             {
-                return Task.FromResult(user);
+                return null;
             }
-            else
-            {
-                return Task.FromResult<User>(null); //Throw exception?;
-            }
-        }
 
-        public Task<decimal> GetCredit()
-        {
-            return Task.Factory.StartNew(() => user.Credit); // ?
+            return Task.FromResult(user);
+
         }
 
         public Task<bool> ChangeCredit(decimal amount)
         {
             bool result = false;
 
+            if (!user.Exists)
+            {
+                return null;
+            }
             if(user.Credit + amount > 0)
             {
                 user.Credit += amount;

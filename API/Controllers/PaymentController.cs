@@ -37,10 +37,10 @@ namespace API.Controllers
             //Grain needed?
         }
         [HttpGet("status/{order_id}")]
-        public Task<string> GetStatus(Guid order_id)
+        public async Task<string> GetStatus(Guid order_id)
         {
             //GET - returns the status of the payment (paid or not)
-            return Task.FromResult("paid");
+            return await Task.FromResult("paid");
         }
     }
 }
