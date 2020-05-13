@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using DataModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Orleans;
 using OrleansBasics;
 
@@ -57,7 +58,8 @@ namespace API.Controllers
             //When the grain is invoked should it check the db or something if the id exists? 
             //(e.g) use OnActivateAsync(?) to check if user exists ? Need a storage provider for that.
             var user = _client.GetGrain<IUserGrain>(id);
-            //Send ok or not found?
+         
+            //Send ok or not found.
             return user.GetUser();
         }
 

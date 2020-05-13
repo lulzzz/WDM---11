@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,11 @@ namespace DataModels
         [JsonIgnore]
         public bool Exists => CreatedAt != null;
         //Non serializable
+        [JsonIgnore]
         public bool Completed => CompletedAt != null;
 
-        public decimal Total => Items.Sum(i => i.Credit);
+        [JsonProperty(PropertyName = "total_cost")]
+        public decimal Total => Items.Sum(i => i.Price);
 
         public void Create(Guid userId)
         {

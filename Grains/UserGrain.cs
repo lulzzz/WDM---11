@@ -43,7 +43,7 @@ namespace OrleansBasics
         {
             if (!user.Exists)
             {
-                return null;
+                throw new Exception();
             }
 
             return Task.FromResult(user);
@@ -67,13 +67,6 @@ namespace OrleansBasics
             return Task.FromResult(result);
         }
 
-        // TODO: Necessary?
-        //Should receive the order
-        public Task<Guid> NewOrder()
-        {
-            //Add order to user
-            var guid = Guid.NewGuid();
-            return Task.FromResult(guid);
-        }
+   
     }
 }

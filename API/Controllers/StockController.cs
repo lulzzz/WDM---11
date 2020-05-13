@@ -54,11 +54,11 @@ namespace API.Controllers
 
             stock.ChangeAmount(number);
         }
-        [HttpPost("item/create")]
-        public Task<string> AddItem([FromBody] Stock body)
+        [HttpPost("item/create/{price}")]
+        public Task<string> AddItem(decimal price)
         {
             var item = _client.GetGrain<IStockGrain>(Guid.NewGuid());
-            item.Create(body.Description);
+            item.Create(price);
             return Task.FromResult(item.GetPrimaryKey() + ""); //Again, not the most elegant way to convert the object.
 
         }
