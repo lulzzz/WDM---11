@@ -8,7 +8,7 @@ namespace OrleansBasics
     public class OrderGrain : Orleans.Grain, IOrderGrain
     {
         Order order = new Order();
-
+        //UserGrain?
 
         public Task<Guid> CreateOrder(Guid userId) //userId or IUserGrain?
         {

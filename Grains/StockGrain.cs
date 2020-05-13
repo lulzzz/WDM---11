@@ -12,22 +12,42 @@ namespace OrleansBasics
 
         public Task ChangeAmount(int amount)
         {
-            throw new NotImplementedException();
+            if (!stock.Exists)
+            {
+                throw new Exception("Item does not exist");
+            }
+            if(stock.Quantity + amount > 0)
+            {
+                stock.Quantity += amount;
+            }
+            else
+            {
+                throw new Exception("Not enough stock.");
+            }
+            return Task.FromResult(0);
         }
 
         public Task<Stock> GetStock()
         {
+            if (!stock.Exists)
+            {
+                throw new Exception("Item does not exist");
+            }
             return Task.FromResult(stock);
         }
 
         public Task<int> GetAmount()
         {
-            return Task.FromResult(stock.Amount);
+            if(!stock.Exists)
+            {
+                throw new Exception("Item does not exist");
+            }
+            return Task.FromResult(stock.Quantity.Value);
         }
 
-        public void Create(string description)
+        public void Create(decimal price)
         {
-            stock.Description = description;
+            stock.Price = price;
         }
     }
 }
