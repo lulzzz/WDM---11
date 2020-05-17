@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Orleans;
+using OrleansBasics;
 
 namespace API.Controllers
 {
@@ -17,30 +18,43 @@ namespace API.Controllers
         // /payment/status/{order_id}
 
         private readonly IClusterClient _client;
+
         public PaymentController(IClusterClient client)
         {
             _client = client;
         }
 
         [HttpPost("pay/{user_id}/{order_id}")]
-        public Task<bool> Pay(Guid user_id, Guid order_id)
+        public async Task<bool> Pay(Guid user_id, Guid order_id)
         {
-            //POST - subtracts the amount of the order from the user’s credit(returns failure if credit is not enough)
-            //Payment grain  needed?
-            return Task.FromResult(true);
+            var user = _client.GetGrain<IUserGrain>(user_id);
+            var order = _client.GetGrain<IOrderGrain>(order_id);
+            var total = await order.GetTotalCost();
+
+            if (await user.ChangeCredit(-total)) return await order.Complete();
+
+            return false;
         }
+
         [HttpPost("cancel/{user_id}/{order_id}")]
-        public void CancelPayment(Guid user_id, Guid order_id)
+        public async Task<bool> CancelPayment(Guid user_id, Guid order_id)
         {
-            //POST - cancels payment made by a specific user for a specific order.
-            //How to "cancel" the payment? Change its status? Remove it?
-            //Grain needed?
+            var user = _client.GetGrain<IUserGrain>(user_id);
+            var order = _client.GetGrain<IOrderGrain>(order_id);
+            var total = await order.GetTotalCost();
+
+            if (await user.ChangeCredit(total)) return await order.CancelCheckout();
+
+            return false;
         }
+
         [HttpGet("status/{order_id}")]
         public async Task<string> GetStatus(Guid order_id)
         {
-            //GET - returns the status of the payment (paid or not)
-            return await Task.FromResult("paid");
+            var order = _client.GetGrain<IOrderGrain>(order_id);
+            bool status = await order.GetStatus();
+            
+            return await Task.FromResult("{'paid': '" + status + "'}");
         }
     }
 }

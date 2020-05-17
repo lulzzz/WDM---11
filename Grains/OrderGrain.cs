@@ -28,22 +28,20 @@ namespace OrleansBasics
 
             return Task.FromResult(result);
         }
+
         public Task<Order> GetOrder()
         {
             if (order.Exists)
             {
                 return Task.FromResult(order);
             }
-            else
-            {
-                return Task.FromResult<Order>(null); //Throw exception?;
-            }
+
+            return Task.FromResult<Order>(null); //Throw exception?;
         }
 
         public void AddItem(Stock item)
         {
             order.Items.Add(item);
-
         }
 
         public void RemoveItem(Stock item)
@@ -59,6 +57,46 @@ namespace OrleansBasics
             }
 
             return Task.FromResult(order.Total);
+        }
+
+        public Task<bool> GetStatus()
+        {
+            return Task.FromResult(order.Exists && order.Completed);
+        }
+
+        public Task<bool> Checkout()
+        {
+            if (!order.CanCheckout) return Task.FromResult(false);
+            
+            // foreach (Stock item in order.Items)
+            // {
+            //     //ToDo: subtract stock.
+            // }
+            
+            order.Checkout();
+
+            return Task.FromResult(true);
+        }
+
+        public Task<bool> Complete()
+        {
+            order.Complete();
+            
+            return Task.FromResult(true);
+        }
+        
+        public Task<bool> CancelCheckout()
+        {
+            if (!order.CheckedOut) return Task.FromResult(false);
+            
+            // foreach (Stock item in order.Items)
+            // {
+            //     //ToDo: revert stock transaction.
+            // }
+            
+            order.CancelCheckout();
+
+            return Task.FromResult(true);
         }
     }
 }

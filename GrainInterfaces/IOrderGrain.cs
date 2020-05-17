@@ -21,5 +21,13 @@ namespace OrleansBasics
         void RemoveItem(Stock item);
 
         Task<decimal> GetTotalCost();
+        
+        Task<bool> GetStatus();
+
+        Task<bool> Checkout();
+
+        Task<bool> Complete();
+        
+        Task<bool> CancelCheckout();
     }
 }
