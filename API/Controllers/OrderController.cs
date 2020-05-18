@@ -8,6 +8,7 @@ using Orleans;
 using OrleansBasics;
 using DataModels;
 using System.Xml.Schema;
+using GrainInterfaces;
 
 namespace API.Controllers
 {
@@ -65,9 +66,10 @@ namespace API.Controllers
         public async Task<bool> Checkout(Guid id)
         {
             var order = _client.GetGrain<IOrderGrain>(id);
-            decimal total = await order.GetTotalCost();
-            //Call payment service, should it call the service itself or a grain ? Should payments be grains?
-            return true;  //TODO
+            
+            //ToDo: Subtract stock.
+            
+            return await order.Checkout();;
         }
 
     }
