@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace OrleansBasics
 {
     [Serializable]
-    internal class UserDoesNotExistsException : Exception
+    public class UserDoesNotExistsException : Exception
     {
         public UserDoesNotExistsException()
         {

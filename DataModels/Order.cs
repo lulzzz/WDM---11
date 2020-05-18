@@ -10,9 +10,10 @@ namespace DataModels
 {
     public class Order
     {
+        [JsonIgnore] //Ignore this or send it too ?
         public Guid userId { get; set; } //FK of user
 
-        public List<Stock> Items { get; } = new List<Stock>();
+        public List<Stock> Items { get; } = new List<Stock>(); //Bit weird. If 3 items of N in the list, then the order has 3 items of these. This should be grouped probably in another model.
 
         public DateTime? CreatedAt { get; set; } = null;
         public DateTime? CheckedOutAt { get; set; } = null;
@@ -33,6 +34,7 @@ namespace DataModels
         [JsonProperty(PropertyName = "total_cost")]
         public decimal Total => Items.Sum(i => i.Price);
 
+   
         public void Create(Guid userId)
         {
             this.userId = userId;

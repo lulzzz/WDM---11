@@ -15,9 +15,8 @@ namespace OrleansBasics
 
         Task<Order> GetOrder();
 
-        //TODO
         void AddItem(Stock item);
-        //TODO
+       
         void RemoveItem(Stock item);
 
         Task<decimal> GetTotalCost();
@@ -29,5 +28,7 @@ namespace OrleansBasics
         Task<bool> Complete();
         
         Task<bool> CancelCheckout();
+
+        Task<Guid> GetUser();
     }
 }

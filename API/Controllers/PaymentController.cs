@@ -42,9 +42,12 @@ namespace API.Controllers
             var user = _client.GetGrain<IUserGrain>(user_id);
             var order = _client.GetGrain<IOrderGrain>(order_id);
             var total = await order.GetTotalCost();
-
-            if (await user.ChangeCredit(total)) return await order.CancelCheckout();
-
+           
+            if(await order.CancelCheckout())
+            {
+                return await user.ChangeCredit(total);
+            }
+            
             return false;
         }
 
