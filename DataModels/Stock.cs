@@ -7,6 +7,7 @@ namespace DataModels
 {
     public class Stock
     {
+        public Guid ID { get; set; }
         public int? Quantity { get; set; } = null;
         public decimal Price { get; set; }
 

@@ -6,6 +6,7 @@ namespace DataModels
 {
     public class User
     {
+        
         public decimal Credit { get; set; } = 0;
 
         public DateTime? CreatedAt { get; private set; } = null;

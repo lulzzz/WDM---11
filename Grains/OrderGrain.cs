@@ -8,7 +8,6 @@ namespace OrleansBasics
     public class OrderGrain : Orleans.Grain, IOrderGrain
     {
         Order order = new Order();
-        //UserGrain?
 
         public Task<Guid> CreateOrder(Guid userId) //userId or IUserGrain?
         {
@@ -53,7 +52,7 @@ namespace OrleansBasics
         {
             if (!order.Exists)
             {
-                return null;
+                throw new OrderDoesNotExistsException();
             }
 
             return Task.FromResult(order.Total);
@@ -78,6 +77,7 @@ namespace OrleansBasics
             return Task.FromResult(true);
         }
 
+        //Complete === Checkout ?
         public Task<bool> Complete()
         {
             order.Complete();
@@ -97,6 +97,15 @@ namespace OrleansBasics
             order.CancelCheckout();
 
             return Task.FromResult(true);
+        }
+
+        public Task<Guid> GetUser()
+        {
+            if (order.Exists)
+            {
+                return Task.FromResult(this.GetPrimaryKey());
+            }
+            throw new OrderDoesNotExistsException();
         }
     }
 }

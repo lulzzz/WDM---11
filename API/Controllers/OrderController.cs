@@ -47,29 +47,43 @@ namespace API.Controllers
         }
 
         [HttpPost("additem/{order_id}/{item_id}")]
-        public void AddItem(Guid orderId, Guid itemId)
-        {
-            var order = _client.GetGrain<IOrderGrain>(orderId);
-            //Should receive the item_id ? The item itself or the grain?
-            order.AddItem(null);
-
-        }
-        [HttpDelete("removeitem/{order_id}/{item_id}")]
-        public void RemoveItem(Guid order_id, Guid item_id)
+        public async Task AddItem(Guid order_id, Guid item_id)
         {
             var order = _client.GetGrain<IOrderGrain>(order_id);
             //Should receive the item_id ? The item itself or the grain?
-            order.RemoveItem(null);
+            var item = _client.GetGrain<IStockGrain>(item_id);
+
+            order.AddItem(await item.GetStock());
+
+        }
+        [HttpDelete("removeitem/{order_id}/{item_id}")]
+        public async Task RemoveItem(Guid order_id, Guid item_id)
+        {
+            var order = _client.GetGrain<IOrderGrain>(order_id);
+            //Should receive the item_id ? The item itself or the grain?
+            var item = _client.GetGrain<IStockGrain>(item_id);
+            order.RemoveItem(await item.GetStock());
+
 
         }
         [HttpPost("checkout/{id}")]
         public async Task<bool> Checkout(Guid id)
         {
             var order = _client.GetGrain<IOrderGrain>(id);
+
+            var result = await order.Checkout();
+            //Cancel checkout if something goes wrong.
             
-            //ToDo: Subtract stock.
-            
-            return await order.Checkout();;
+            if (result)
+            {
+                var user_id = await order.GetUser();
+
+                //pay
+                await _client.GetGrain<IUserGrain>(user_id).ChangeCredit(-await order.GetTotalCost());
+
+                //remove from stock
+            }
+            return result;
         }
 
     }

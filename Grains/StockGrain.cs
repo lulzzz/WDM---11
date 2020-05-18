@@ -1,4 +1,5 @@
 ﻿using DataModels;
+using Orleans;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,7 +15,7 @@ namespace OrleansBasics
         {
             if (!stock.Exists)
             {
-                throw new Exception("Item does not exist");
+                throw new Exception("Item does not exist"); //Change to proper exceptions
             }
             if(stock.Quantity + amount > 0)
             {
@@ -22,7 +23,7 @@ namespace OrleansBasics
             }
             else
             {
-                throw new Exception("Not enough stock.");
+                throw new Exception("Not enough stock."); //Change to proper exceptions
             }
             return Task.FromResult(0);
         }
@@ -47,7 +48,9 @@ namespace OrleansBasics
 
         public void Create(decimal price)
         {
+            //What if the item already exists ? Are updates allowed ?
             stock.Price = price;
+            stock.ID = this.GetPrimaryKey();
         }
     }
 }

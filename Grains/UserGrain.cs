@@ -56,7 +56,7 @@ namespace OrleansBasics
 
             if (!user.Exists)
             {
-                return null;
+                throw new UserDoesNotExistsException();
             }
             if(user.Credit + amount > 0)
             {
