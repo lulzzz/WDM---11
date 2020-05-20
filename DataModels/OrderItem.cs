@@ -20,7 +20,7 @@ namespace DataModels
 
             if (Quantity < 1)
             {
-                throw new DecQuantityException();
+                throw new InvalidQuantityException();
             }
         }
     }

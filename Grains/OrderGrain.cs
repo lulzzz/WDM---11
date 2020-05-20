@@ -64,7 +64,7 @@ namespace OrleansBasics
                 {
                     order.Items[id].DecQuantity();
                 } 
-                catch(DecQuantityException)
+                catch(InvalidQuantityException)
                 {
                     order.Items.Remove(id);
                 }
